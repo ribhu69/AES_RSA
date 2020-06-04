@@ -10,4 +10,4 @@ In this project, we perform two tasks
 The files are then uploaded to Google Drive using a wrapper of Google Drive API called PyDrive.
 This wrapper pops up a browser activity and requests authentication to upload the files to the drive. The files are uploaded from the path specified to the drive after authentication is successful.
 
-The encryption and upload are seperate programs which are used manually. We can also use Java Drive API to do the same but PyDrive is also 
+The encryption and upload are seperate programs which are used manually. We can also use Java Drive API to do the same but PyDrive does the task more seamlessly.
