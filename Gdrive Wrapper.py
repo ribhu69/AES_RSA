@@ -10,7 +10,7 @@ gauth.LocalWebserverAuth()
 drive = GoogleDrive(gauth) 
    
 #scans folder content and uploads it. 
-path = r"D:/IntelliJ/CUSTOMAESRSA/text_encryption/Gdrive/"   
+path = r"Path to local directory to upload files"   
    
 # iterating thought all the files/folder the desired directory 
 for x in os.listdir(path): 
