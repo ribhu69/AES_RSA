@@ -319,7 +319,8 @@ public class Main {
         String filename = sc.nextLine();
         String[] arrOfStr = filename.split("\\.", 2);
         String nFileName = arrOfStr[0];
-        String extension = arrOfStr[1];
+        System.out.println("Enter extension to be converted to: \n");
+        String extension =sc.nextLine();
         File encryptedFile = new File(currentDirectory+
                 "\\file_encryption"+"\\"+nFileName+".encrypted");
         File decryptedFile = new File(currentDirectory+
